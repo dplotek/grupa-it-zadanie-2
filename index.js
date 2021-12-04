@@ -98,6 +98,8 @@ const addNewBook = (e)=> {
         displayBooks();
         titleInput.value = '';
         authorInput.value = '';
+        priorityInput.value = '1';
+        categoryInput.value = "Powieść";
     }
 }
 
